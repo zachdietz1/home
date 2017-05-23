@@ -11,13 +11,13 @@ safe: true
 
 
 # edit here to achieve your personal greatness
-url: http://username.github.io/
-baseurl: /sustain/
-title: Chris Turner
-author: Chris Turner
+url: http://zachdietz1.github.io/
+baseurl: /home/
+title: Zach Dietz
+author: Zach Dietz
 description: Personal blog and resume
 avatar: profile.png
-email: yourname@email.com
+email: zachdietz1@gmail.com
 github: biomadeira/sustain # username
 twitter: username
 linkedin: username
