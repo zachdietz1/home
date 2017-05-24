@@ -15,15 +15,14 @@ url: http://zachdietz1.github.io/
 baseurl: /home/
 title: Zach Dietz
 author: Zach Dietz
-description: Personal blog and resume
-avatar: profile.png
+description: Personal Website
+avatar: senior_photo.png
 email: zachdietz1@gmail.com
-github: biomadeira/sustain # username
-twitter: username
-linkedin: username
-stackoverflow: username   #e.g: users/2735833/proton1h1
-#Comment out if you don't want disqus 
-disqus: username
+github: zachdietz1
+twitter:
+linkedin: zachary-dietz-bb936a133
+stackoverflow:
+# disqus: 
 google_analytics: UA-69391421-1
 
 
