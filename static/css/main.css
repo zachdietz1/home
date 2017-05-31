@@ -3,10 +3,10 @@
 html,
 body {
   height: 100%;
-  background-color: #fff;
-  font-family: 'Source Sans Pro', sans-serif;
+  background-color: rgba(50, 50, 100, 0.05);
+  font-family: Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
   /* The html and body elements cannot have any padding or margin. */
-  border-top: 3px solid #27A822;
+  border-top: 6px solid #B11D1D;
 }
 /* Wrapper for page content to push down footer */
 #wrap {
@@ -16,19 +16,21 @@ body {
   /* Negative indent footer by its height */
   margin: 0 auto -65px;
   /* Pad bottom by footer height */
-  /*padding: 0 0 60px;*/
+  padding: 0 0 60px;
 }
 
 /* Navbar
 -------------------------------------------------- */
-
+.navbar-brand {
+    transform: translateY(-12%);
+}
 .navbar-static-top {
   margin-bottom: 10px;
 }
 .navbar-default {
-  background-color: #ffffff;
-  border-color: #ffffff;
-}
+  background-color: rgba(50, 50, 100, 0.05);
+  border: 0;
+ }
 .navbar-default .navbar-brand {
   color: #6b6b6b;
 }
@@ -86,20 +88,19 @@ body {
 
 /* Custom page CSS
 -------------------------------------------------- */
-
 .container {
   width: auto;
   max-width: 800px;
   text-align: center;
 }
 .container .text-muted {
-  margin: 20px 0;
+  margin: 18px 0;
 }
 .container a {
-  color: #27A822;
+  color: #B11D1D;
 }
 .container a:hover {
-  color: #267723;
+  color: #C51F1F;
 }
 .img-responsive {
  display: block;
@@ -120,13 +121,14 @@ body {
   font-size: 15px;
 }
 .panel-default h4 a, h5 a {
-  color: #27A822;
+  color: #B11D1D;
 }
 .panel-default h4 a:hover, h5 a:hover {
   color: #267723;
 }
 .panel{
   border-style: none;
+  background-color: rgba(50, 50, 100, 0); /* Not sure why this needs to be 0. */
 }
 .panel-body {
   padding-top: -10px;
@@ -135,12 +137,14 @@ body {
 .social {
   padding-top: 12px;
   word-spacing: 25px;
+  text-align: center; 
+  padding-right: 50px;
 }
 .social h4 > a {
   color: #000000;
 }
 .avatar {
-  padding-top: 5%;
+  /* Insert anything to change prof pic.*/
 }
 .blog-post{
   padding-top: 15px;
@@ -174,7 +178,7 @@ body {
 	color: #6b6b6b;
 }
 div.footer{
-  border-bottom: 5px solid #27A822;;
+  border-bottom: 8px solid #B11D1D;;
 }
 /* Set the fixed height of the footer here */
 /*.footer {
