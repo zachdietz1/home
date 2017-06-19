@@ -3,7 +3,7 @@
 html,
 body {
   height: 100%;
-  background-color: rgba(50, 50, 100, 0.1);
+  background-color: rgba(50, 50, 100, 0.05);
   font-family: Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
   /* The html and body elements cannot have any padding or margin. */
   border-top: 6px solid #B11D1D;
