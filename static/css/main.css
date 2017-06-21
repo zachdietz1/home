@@ -195,8 +195,6 @@ div.footer{
   max-width: 100%;
   overflow: auto;
   margin: 0 auto;'
-  -webkit-overflow-scrolling: touch;
-  overflow-y: scroll;
 }
   
 }*/
