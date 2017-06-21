@@ -3,7 +3,8 @@
 html,
 body {
   height: 100%;
-  background-color: rgba(50, 50, 100, 0.05);
+  /* background-color: rgba(50, 50, 100, 0.0); 
+  Could not get color to fill up entire screen. */
   font-family: Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
   /* The html and body elements cannot have any padding or margin. */
   border-top: 6px solid #B11D1D;
@@ -28,14 +29,14 @@ body {
   margin-bottom: 10px;
 }
 .navbar-default {
-  background-color: rgba(50, 50, 100, 0.1);
+  background-color: rgba(50, 50, 100, 0.08);
   border: 0;
  }
 .navbar-default .navbar-brand {
   color: #886B6B;
 }
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
-  color: #886B6B;
+  color: #C51F1F;
 }
 .navbar-default .navbar-text {
   color: #886B6B;
@@ -44,7 +45,7 @@ body {
   color: #886B6B;
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-  color: #886B6B;
+  color: #C51F1F;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
   color: #886B6B;
@@ -90,7 +91,7 @@ body {
 -------------------------------------------------- */
 .container {
   width: auto;
-  max-width: 800px;
+  max-width: 920px;
   text-align: center;
 }
 .container .text-muted {
