@@ -3,8 +3,18 @@ layout: layout
 title: Page not found!
 ---
 
+<script>
+	var pathname = window.location.pathname;
+	window.onload = function() {
+		document.getElementById("pathname").innerHTML=pathname;
+	}
+</script>
+
 <div class="container">
   <div class="page-not-found">
     <h3>Uh oh! Page not found!</h3>
+	<h4> <p id="pathname" style="display:inline"></p> is an invalid pathname.</h4>
+  	</br>
+  	<h2>Click <a href="{{ site.baseurl }}"> here</a> to be redirected to the home page.</h2>
   </div>
 </div>

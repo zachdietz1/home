@@ -179,7 +179,7 @@ body {
 	color: #886B6B;
 }
 div.footer{
-  border-bottom: 8px solid #B11D1D;;
+  border-bottom: 8px solid #B11D1D;
 }
 /* Set the fixed height of the footer here */
 /*.footer {
@@ -193,4 +193,11 @@ div.footer{
     width: 100%;
     border: none;
     overflow: auto;
+}
+
+/* Page Not Found
+-------------------------------------------------- */
+
+.page-not-found {
+    transform: translateY(-20%);
 }
