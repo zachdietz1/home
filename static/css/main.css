@@ -226,6 +226,4 @@ html {overflow-y:auto}
 /* Page Not Found
 -------------------------------------------------- */
 
-.page-not-found {
-    transform: translateY(-30%);
-}
+.page-not-found {}
