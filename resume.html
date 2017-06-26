@@ -8,7 +8,12 @@ title: Resume
 	<script>
 		function changeHeight() {
 			var height = $(window).height();
-			var new_height = height - 160 ; 
+			if ($(window).width() > 767) {
+				var new_height = height - 160;
+			}
+			else {
+				var new_height = height - 260;
+			} 
 			$("iframe").css({"height": new_height});
 		}
 		$(document).ready(function(){
