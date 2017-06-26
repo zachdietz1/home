@@ -2,20 +2,22 @@
 layout: page
 title: Resume
 ---
+<body class='resume'>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	
+	<script>
+		function changeHeight() {
+			var height = $(window).height();
+			var new_height = height - 160 ; 
+			$("iframe").css({"height": new_height});
+		}
+		$(document).ready(function(){
+	    	changeHeight()
+		});
+		$(window).resize(function() {
+	    	changeHeight()
+		});
+	</script>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script>
-	function changeHeight() {
-		var width = $(window).width();
-		var new_width = 2500;
-		$("iframe").css({"height": new_width});
-	}
-	$(document).ready(function(){
-    	changeHeight()
-	});
-	$(window).resize(function() {
-    	changeHeight()
-	});
-</script>
-
-<iframe class="iframe" src="https://zachdietz1.github.io/resume/"></iframe> 
+	<iframe class="iframe" src="https://zachdietz1.github.io/resume/"></iframe> 
+</body>

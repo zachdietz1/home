@@ -189,6 +189,9 @@ div.footer{
 /* Resume
 -------------------------------------------------- */
 
+.resume {
+  overflow: hidden;}
+
 .iframe {
     width: 100%;
     border: none;
